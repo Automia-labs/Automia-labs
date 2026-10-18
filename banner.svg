@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 360" width="1280" height="360" role="img" aria-label="Automia, creative development studio">
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F6E3A1"/>
+      <stop offset="0.55" stop-color="#D4AF37"/>
+      <stop offset="1" stop-color="#A8841F"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.55">
+      <stop offset="0" stop-color="#D4AF37" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#D4AF37" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#D4AF37" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#D4AF37"/>
+      <stop offset="1" stop-color="#D4AF37" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="360" fill="#0A0B0D"/>
+  <rect width="1280" height="360" fill="url(#glow)"/>
+  <g stroke="#FFFFFF" stroke-opacity="0.05" stroke-width="1">
+    <path d="M0 90H1280M0 180H1280M0 270H1280"/>
+    <path d="M160 0V360M320 0V360M480 0V360M640 0V360M800 0V360M960 0V360M1120 0V360"/>
+  </g>
+  <g fill="none" stroke="#D4AF37" stroke-opacity="0.7" stroke-width="1.5">
+    <path d="M40 72V40h32"/>
+    <path d="M1240 72V40h-32"/>
+    <path d="M40 288v32h32"/>
+    <path d="M1240 288v32h-32"/>
+  </g>
+  <text x="640" y="178" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="96" font-weight="300" letter-spacing="36" fill="url(#gold)">AUTOMIA</text>
+  <rect x="580" y="212" width="120" height="1.5" fill="url(#rule)"/>
+  <text x="640" y="256" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15" letter-spacing="7" fill="#FFFFFF" fill-opacity="0.72">REAL-TIME 3D · CINEMATIC WEB · HAUTE COUTURE UI</text>
+</svg>
